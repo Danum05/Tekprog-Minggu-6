@@ -10,8 +10,8 @@ public class Main {
         jurusan.setMahasiswa(mahasiswa);
         
         // tampil //
-        System.out.println ("NIP Dosen      : " + jurusan.getMahasiswa().getNim());
-        System.out.println ("Nama Dosen     : " + jurusan.getMahasiswa().getNama());
+        System.out.println ("NIM      : " + jurusan.getMahasiswa().getNim());
+        System.out.println ("Nama Mahasiswa    : " + jurusan.getMahasiswa().getNama());
         System.out.println ("Jurusan        : " + jurusan.getNamaJurusan());
         System.out.println (jurusan.getMahasiswa().getNama() + " adalah mahasiswa "+ jurusan.getNamaJurusan() + " dengan NIM : " + jurusan.getMahasiswa().getNim());
     }
